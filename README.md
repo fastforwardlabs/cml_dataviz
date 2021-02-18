@@ -1,4 +1,4 @@
-# Cloudera Data Visualization (CDDV) on CML
+# Cloudera Data Visualization (CDV) on CML
 
 This AMP demonstrates how to instantiate Cloudera Data Visualization on CML.
 
@@ -13,16 +13,16 @@ Learn more about Cloudera Data Visualization [here](https://www.cloudera.com/pro
 
 ## Requirements
 
-The following are requirements for running CDV as an AMP
+The following are requirements for running CDV:
 
-- Add CDV engine to your workspace. If you do not have access, contact your site adminstrator to CDV as an engine.
-- Set CDV as the default engine. This ensures AMPs use this engine when instantiated.
+- Add a CDV engine to your workspace. If you do not have access, contact your site adminstrator to CDV as an engine.
+- [Optional for AMPs] Set CDV as the default engine. This ensures an instantiated AMPs will use this engine.
 
 
 ## Launch CDV
 
-You can launch this example by:
-- Select the CDV tile from your Catalog if available
-- Create a new project, select ML prototype and provide the URL to this GIT repo
+There are a few ways to launch CDV :
+- Select the CDV tile from your Catalog if available and launch!
+- Create a new project, select ML prototype and provide the URL to this GIT repo.
 - Create a blank project, create an application and specify the CDV launch script `/opt/vizapps/tools/arcviz/startup_app.py`.
 
