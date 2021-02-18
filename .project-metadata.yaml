@@ -1,0 +1,15 @@
+name: CDV in CML
+description: Run a CDV App in CML
+author: Cloudera Inc.
+specification_version: 1.0
+prototype_version: 1.0
+date: "2020-09-29"
+api_version: 1
+
+ 
+tasks:
+  - type: start_application
+    name: Application to Serve CDV
+    subdomain: cdv
+    script: /opt/vizapps/tools/arcviz/startup_app.py
+    kernel: python3
