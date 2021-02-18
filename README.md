@@ -15,7 +15,7 @@ Learn more about Cloudera Data Visualization [here](https://www.cloudera.com/pro
 
 The following are requirements for running CDV:
 
-- Add a CDV engine to your workspace. If you do not have access, contact your site adminstrator to CDV as an engine.
+- [Add a CDV engine](https://docs.cloudera.com/data-visualization/cloud/start-cml/topics/viz-add-engine-to-cml.html) to your workspace. If you do not have access, contact your site adminstrator to CDV as an engine.
 - [Optional for AMPs] Set CDV as the default engine. This ensures an instantiated AMPs will use this engine.
 
 
