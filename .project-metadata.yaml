@@ -10,6 +10,9 @@ api_version: 1
 tasks:
   - type: start_application
     name: Application to Serve CDV
+    default_resources:
+      cpu: 2
+      memory: 4
     subdomain: cdv
     script: /opt/vizapps/tools/arcviz/startup_app.py
     kernel: python3
